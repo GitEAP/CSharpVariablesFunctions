@@ -15,6 +15,13 @@ namespace ConsoleApplication
             string firstLine = "Hello World! This is my first C# project.";
             Console.WriteLine(firstLine);
             Console.WriteLine(newNumber);
+            
+            Console.WriteLine( SubtractNumbers(myNumber, yourNumber) );
+            
+        }
+         public static int SubtractNumbers(int number1, int number2){
+            int result = (number1 - number2); 
+            return result;
         }
     }
 }
